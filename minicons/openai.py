@@ -111,8 +111,8 @@ class OpenAIQuery:
             prompt=self.prompts,
             max_tokens=0,
             temperature=0.0,
-            logprobs=0,
-            echo=True,
+            logprobs=True, #0,
+            #echo=True,
         )
 
     def sequence_score(
